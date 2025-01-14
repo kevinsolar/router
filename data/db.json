@@ -1,0 +1,34 @@
+{
+	"produtos": [
+		{
+			"id": "1",
+			"nome": "Camisa",
+			"preco": 59.9
+		},
+		{
+			"id": "2",
+			"nome": "Calça Vermelha",
+			"preco": 90
+		},
+		{
+			"id": "3",
+			"nome": "Boné aba reta",
+			"preco": 41.9
+		},
+		{
+			"id": "2b7a",
+			"nome": "Teclado",
+			"preco": "110"
+		},
+		{
+			"id": "4230",
+			"nome": "mouse",
+			"preco": "60"
+		},
+		{
+			"id": "13aa",
+			"nome": "Cadeira",
+			"preco": "899.99"
+		}
+	]
+}
