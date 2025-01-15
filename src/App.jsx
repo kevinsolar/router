@@ -10,6 +10,7 @@ function App() {
 	return (
 		<div className="App">
          <BrowserRouter>
+         {/* 2 - Links com React Router DOM */}
             <Navbar />
             <Routes>
                <Route path="/" element={<Home />} />
