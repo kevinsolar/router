@@ -5,6 +5,7 @@ import Sobre from "./pages/Sobre";
 import Navbar from "./components/Navbar";
 import Produto from "./pages/Produto";
 import Info from "./pages/Info";
+import NotFound from "./pages/NotFound";
 
 const url = "http://localhost:3000/produtos";
 
@@ -24,6 +25,9 @@ function App() {
                   Preciso criar um elemento que vai ser o responsável por receber e renderizar os elementos compostos.
                */}
 					<Route path="/produtos/:id/info" element={<Info />} />
+
+               {/* 7 - No match route / página não encontrada */}
+               <Route path="*" element={<NotFound />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
