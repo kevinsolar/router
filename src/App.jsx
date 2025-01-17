@@ -2,7 +2,7 @@
 import "./App.css";
 
 //Componentes
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import SearchForm from "./components/SearchForm";
 
 //Pages
@@ -37,6 +37,9 @@ function App() {
 
                {/* 9 - Search */}
                <Route path="/search" element={<Search />} />
+
+               {/* 10 - redirect */}
+               <Route path="company" element={<Navigate to="/sobre" />} />
 
                {/* 7 - No match route / página não encontrada */}
                <Route path="*" element={<NotFound />} />
