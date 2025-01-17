@@ -9,7 +9,8 @@ const SearchForm = () => {
    const handleSubmit = (e) => {
       e.preventDefault()
 
-      navigate("/search?q=" + query)
+      // navigate("/search?q=" + query) -> fiz a alteração para o nome do produto, pois nao estava funcionando.
+      navigate("/search?name=" + query)
    }
 
    return (

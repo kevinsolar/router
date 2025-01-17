@@ -5,7 +5,7 @@ const Search = () => {
 	const [searchParams] = useSearchParams();
 
 	const url = "http://localhost:3000/produtos?" + searchParams;
-	const { data: items, loading, error } = useFetch(url);
+	const {data: items, loading, error} = useFetch(url);
 
 	return (
 		<section>
